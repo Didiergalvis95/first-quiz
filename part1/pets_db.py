@@ -1,4 +1,5 @@
 import sqlite3
+from question4 import sql_pets_owned_by_nobody, sql_pets_older_than_owner, sql_only_owned_by_bessie
 
 TABLE_SCHEMA = """
     CREATE TABLE animals (
